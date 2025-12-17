@@ -1,0 +1,34 @@
+{
+  "project_info": {
+    "project_number": "934529463680",
+    "project_id": "final-e3f9e",
+    "storage_bucket": "final-e3f9e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934529463680:android:1e6e4e85b4a92c58ccbd65",
+        "android_client_info": {
+          "package_name": "com.android.bakpia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBijxMm1QJYNSpx5EG_qA9gd7-LxOmILcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1",
+
+  "rules": {
+    ".read": "now < 1768496400000",
+    ".write": "now < 1768496400000"
+  }
+}
