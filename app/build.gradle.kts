@@ -68,4 +68,7 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     implementation(platform("com.google.firebase:firebase-bom:34.7.0"))
     implementation("com.google.firebase:firebase-database:22.0.1")
+//    implementation("com.google.android.gms:play-services-maps:19.2.0")
+    implementation("org.osmdroid:osmdroid-android:6.1.20")
+
 }

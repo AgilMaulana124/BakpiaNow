@@ -12,6 +12,8 @@ class MainActivity : AppCompatActivity() {
 
         // Directly go to LoginActivity
         startActivity(Intent(this, LoginActivity::class.java))
+//        startActivity(Intent(this, CartActivity::class.java))
         finish()
+
     }
 }

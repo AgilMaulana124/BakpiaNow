@@ -32,9 +32,12 @@ class CartActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cart)
 
+        val btnMaps: Button = findViewById(R.id.btnMaps)
+
         rvCart = findViewById(R.id.rvCart)
         txtTotal = findViewById(R.id.txtTotal)
         btnCheckout = findViewById(R.id.btnCheckout)
+
 
         adapter = CartAdapter(cartList)
         rvCart.layoutManager = LinearLayoutManager(this)
@@ -66,6 +69,7 @@ class CartActivity : AppCompatActivity() {
                 }
             })
 
+
 //        btnCheckout.setOnClickListener {
 //            val intent = Intent(this, PaymentActivity::class.java)
 //            intent.putExtra("userId", userId)
@@ -81,6 +85,10 @@ class CartActivity : AppCompatActivity() {
 
             val intent = Intent(this, PaymentActivity::class.java)
             intent.putExtra("total", total)
+            startActivity(intent)
+        }
+        btnMaps.setOnClickListener {
+            val intent = Intent(this, MapsActivity::class.java)
             startActivity(intent)
         }
 

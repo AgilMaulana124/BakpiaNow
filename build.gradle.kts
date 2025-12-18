@@ -5,3 +5,4 @@ plugins {
     alias(libs.plugins.google.gms.google.services) apply false
     kotlin("jvm") version "2.3.0"
 }
+

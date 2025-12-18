@@ -38,5 +38,11 @@
         android:layout_marginTop="12dp"
         android:backgroundTint="@color/orange"
         android:text="Checkout" />
+    <Button
+        android:id="@+id/btnMaps"
+        android:backgroundTint="@color/orange"
+        android:text="Alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
